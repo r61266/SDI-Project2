@@ -1,43 +1,50 @@
 alert("JavaScript works!");
 
 // Alec B. Shallenberger
-// February 14, 2013
+// February 15, 2013
 // SDI 1302
 // Project 2
 
 //Variables
-var TVshows = [
+var TVshowName = [
 	"Supernatural",
-	"Hawaii Five-0",
-	"NCIS: Los Angeles",
-	"Impractical Jokers",
-];
-var Restraunt1 = [
-	"Olive Garden",
-];
-var Restraunt2 = [
-	"Red Lobster",
-];
-var watching = true, EatingCost = 20
-
+	"Impractical Jokers"
+]
+var MinutesForShow = [
+	"60",
+	"30",
+]
+//Procedure
+var WatchTvShow = function(TVshowName, MinutesForShow) {
+	console.log("I started watching " + TVshowName + " for " + MinutesForShow + " minutes.");
+};
+var TVshowName = true
+if (TVshowName ===true) console.log("I will watch all of the shows.");
+	else {
+		console.log("I will do something else if they aren't availble.")
+};
 
 //Boolean Function
-// If we are watching a TV show is true, then I can relax, else, I will go out to eat
-if (watching === true) console.log("I can relax");
- 	else {
-		console.log("I will go out to eat");
-};
-if (Restraunt1 > Restraunt2) console.log("I will be eating at Olive Garden");
- 	else {
-		console.log("I will be eating at Red Lobster");
-};
-//Number Function
-if (EatingCost = 20) console.log("I will be eating good tonight");
-	else {
-		console.log("I will be eating at home");
+var TVshowName = function(name) {
+	var MinutesForShow = ("60", "30"),
+		Tvshows, Show
+	if (MinutesForShow < 70) {  TVshow= "will not have enough time to watch"; }
+	else (MinutesForShow > 30) ;{ TVshow = "will have more than enough time to watch"; }
+	show = "I " + TVshow + ", " + name + "!";
+	//console.log("I " + TVshow + ", " + name + "!");
+	return show;
 };
 
-//String Function
+var fullshow = TVshowName("Supernatural")
+console.log(fullshow);
+
+//Number Function
+var TVshowMinutes = function(minutes) {
+	while (true) {};
+	if (true) {};
+}
+
+
 
 
 
