@@ -1,7 +1,7 @@
 alert("JavaScript works!");
 
 // Alec B. Shallenberger
-// February 15, 2013
+// February 14, 2013
 // SDI 1302
 // Project 2
 
