@@ -38,11 +38,21 @@ var TVshowName = function(name) {
 var fullshow = TVshowName("Supernatural")
 console.log(fullshow);
 
-//Number Function
-var TVshowMinutes = function(minutes) {
-	while (true) {};
-	if (true) {};
-}
+//Number Function 
+var TVshowMinutes = 60, 
+	showtime
+while (TVshowMinutes > 0) {
+	console.log(TVshowMinutes + " minutes of time left till the show ends.");
+	TVshowMinutes--;	
+	showtime = "Finally the " + TVshowMinutes + " minute show " + TVshowName + " is starting!";  
+	//console.log("Finally the " + TVshowMinutes + " minute show " + TVshowName + " is starting")
+	
+};
+var fullshow = TVshowName("Supernatural")
+console.log("The show is offically over and will start a new episode next week.");
+
+
+
 
 
 
