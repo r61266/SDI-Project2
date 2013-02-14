@@ -8,9 +8,11 @@ alert("JavaScript works!");
 //Variables
 var TVshowName = [
 	"Supernatural",
+	"Impractical Jokers",
 ]
 var MinutesForShow = [
-	"60"
+	"60",
+	"30",
 ]
 //Procedure
 var WatchTvShow = function(TVshowName, MinutesForShow) {
@@ -61,6 +63,20 @@ return entireshow
 var enitreshow = TVshowName("Supernatural")
 
 //Array Function
+	var TVshow = [
+		"Impratical Jokers",
+]; 
+var ShowMinutes = [
+	"30",
+];
+console.log( TVshow );
+console.log( ShowMinutes );
+
+for (ShowMinutes = 30; ShowMinutes >0; ShowMinutes--)  {
+	console.log("Finally the " + ShowMinutes + " minute show " + TVshow + " is starting!");
+	
+};
+console.log("The show is officially over and will start a new episode next week.");
 
 
 
